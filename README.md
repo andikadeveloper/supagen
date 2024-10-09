@@ -57,7 +57,16 @@ curl -fsSL https://raw.githubusercontent.com/supagen/supagen/refs/heads/main/scr
 ```
 
 ### Windows
-Download the `.exe` file from the latest release [here](https://github.com/supagen/supagen/releases/latest)
+1. Open PowerShell as an administrator.
+2. Go to the folder you want to install the script.
+3. Download the installation script:
+```bash
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/supagen/supagen/refs/heads/main/scripts/install.ps1" -OutFile "install.ps1"
+```
+4. Run the Script
+```bash
+.\install.ps1
+```
 
 ### Usage
 ```
